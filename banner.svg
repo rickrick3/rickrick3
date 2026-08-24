@@ -1,0 +1,192 @@
+<svg width="100%" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="45%" stop-color="#160303"/>
+      <stop offset="100%" stop-color="#2a0000"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#000000" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.7"/>
+    </radialGradient>
+    <linearGradient id="titleFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3333"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ff3333"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="spiderGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background with gradient -->
+  <rect width="900" height="240" fill="url(#bg)"/>
+
+  <!-- distant city skyline silhouette -->
+  <g fill="#000000" opacity="0.6">
+    <rect x="10" y="175" width="26" height="55"/>
+    <rect x="45" y="150" width="20" height="80"/>
+    <rect x="75" y="190" width="30" height="40"/>
+    <rect x="115" y="160" width="18" height="70"/>
+    <rect x="760" y="165" width="24" height="65"/>
+    <rect x="795" y="140" width="20" height="90"/>
+    <rect x="825" y="185" width="30" height="45"/>
+    <rect x="862" y="155" width="18" height="75"/>
+    <rect x="20" y="200" width="6" height="30"/>
+    <rect x="810" y="205" width="6" height="25"/>
+  </g>
+
+  <!-- top-left corner web - enhanced -->
+  <g stroke="#ff3333" stroke-width="1.2" opacity="0.55">
+    <line x1="0" y1="0" x2="150" y2="0"/>
+    <line x1="0" y1="0" x2="0" y2="130"/>
+    <line x1="0" y1="0" x2="75" y2="65"/>
+    <line x1="0" y1="0" x2="120" y2="25"/>
+    <line x1="0" y1="0" x2="25" y2="110"/>
+    <line x1="0" y1="0" x2="90" y2="95"/>
+    
+    <!-- radial web lines -->
+    <path d="M 0 0 Q 35 20 30 70" fill="none"/>
+    <path d="M 0 0 Q 55 35 40 95" fill="none"/>
+    <path d="M 0 0 Q 75 50 35 115" fill="none"/>
+    <path d="M 0 0 Q 100 75 45 125" fill="none"/>
+  </g>
+
+  <!-- top-right corner web (mirrored) - enhanced -->
+  <g stroke="#ff3333" stroke-width="1.2" opacity="0.55">
+    <line x1="900" y1="0" x2="750" y2="0"/>
+    <line x1="900" y1="0" x2="900" y2="130"/>
+    <line x1="900" y1="0" x2="825" y2="65"/>
+    <line x1="900" y1="0" x2="780" y2="25"/>
+    <line x1="900" y1="0" x2="875" y2="110"/>
+    <line x1="900" y1="0" x2="810" y2="95"/>
+    
+    <!-- radial web lines -->
+    <path d="M 900 0 Q 865 20 870 70" fill="none"/>
+    <path d="M 900 0 Q 845 35 860 95" fill="none"/>
+    <path d="M 900 0 Q 825 50 865 115" fill="none"/>
+    <path d="M 900 0 Q 800 75 855 125" fill="none"/>
+  </g>
+
+  <!-- floating embers - enhanced -->
+  <g fill="#ff5533">
+    <circle cx="120" cy="200" r="2.2">
+      <animate attributeName="cy" values="210;50;210" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.95;0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;2.5;2" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="190" r="1.8">
+      <animate attributeName="cy" values="200;35;200" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1.8;2.2;1.8" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="210" r="2.4">
+      <animate attributeName="cy" values="215;60;215" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.4;2.8;2.4" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="215" r="2">
+      <animate attributeName="cy" values="220;70;220" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;2.6;2" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="195" r="1.6">
+      <animate attributeName="cy" values="205;45;205" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.75;0" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1.6;2;1.6" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- hanging spider on thread - smoother swing -->
+  <g>
+    <line x1="450" y1="0" x2="450" y2="75" stroke="#ff4d4d" stroke-width="1.5" opacity="0.75" filter="url(#softGlow)"/>
+    
+    <g transform="translate(450,75)">
+      <animateTransform 
+        attributeName="transform" 
+        type="rotate" 
+        values="-8 0 0; 8 0 0; -8 0 0" 
+        dur="4.5s" 
+        repeatCount="indefinite" 
+        additive="sum"
+        keyTimes="0;0.5;1"
+        keySplines="0.4 0.0 0.6 1.0;0.4 0.0 0.6 1.0"
+      />
+      
+      <g filter="url(#spiderGlow)">
+        <!-- left legs -->
+        <g stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round">
+          <path d="M -2 2 Q -14 -6 -20 -14"/>
+          <path d="M -2 4 Q -16 8 -22 4"/>
+          <path d="M -2 6 Q -15 16 -19 24"/>
+          <path d="M -2 2 Q -18 -12 -16 -20"/>
+        </g>
+        
+        <!-- right legs -->
+        <g stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round">
+          <path d="M 2 2 Q 14 -6 20 -14"/>
+          <path d="M 2 4 Q 16 8 22 4"/>
+          <path d="M 2 6 Q 15 16 19 24"/>
+          <path d="M 2 2 Q 18 -12 16 -20"/>
+        </g>
+        
+        <!-- body -->
+        <ellipse cx="0" cy="9" rx="6.5" ry="8.5" fill="#0d0d0d" stroke="#ff4d4d" stroke-width="0.5"/>
+        <circle cx="0" cy="-1" r="4.2" fill="#0d0d0d" stroke="#ff4d4d" stroke-width="0.5"/>
+        
+        <!-- subtle eye glow -->
+        <circle cx="-1.5" cy="-2" r="0.8" fill="#ff6666" opacity="0.6"/>
+        <circle cx="1.5" cy="-2" r="0.8" fill="#ff6666" opacity="0.6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- glowing web nodes for depth - more pronounced -->
+  <g fill="#ff4d4d">
+    <circle cx="75" cy="60" r="2.2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.2;2.8;2.2" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="825" cy="60" r="2.2">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.2;2.8;2.2" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- vignette overlay -->
+  <rect width="900" height="240" fill="url(#vignette)"/>
+
+  <!-- main text -->
+  <text 
+    x="450" 
+    y="205" 
+    text-anchor="middle" 
+    font-family="'Courier New', monospace" 
+    font-size="24" 
+    font-weight="700" 
+    fill="url(#titleFill)" 
+    filter="url(#glow)"
+    letter-spacing="1"
+  >
+    🕸️ Slinging code, not webs 🕸️
+  </text>
+</svg>
