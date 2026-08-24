@@ -119,14 +119,6 @@
 
 ---
 
-<div align="center">
-
-## 📚 Latest Blog Posts
-
-<!--START_SECTION:blog-->
-<!--END_SECTION:blog-->
-
-</div>
 
 ---
 
