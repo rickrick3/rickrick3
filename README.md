@@ -1,5 +1,7 @@
 <div align="center">
 
+![Slinging code, not webs](https://raw.githubusercontent.com/rickrick3/rickrick3/main/banner.svg)
+
 # 👋 Hey Everyone, I'm Farel
 
 ### Full-Stack Developer | Data Engineer | AI Systems Builder
@@ -119,6 +121,14 @@
 
 ---
 
+<div align="center">
+
+## 📚 Latest Blog Posts
+
+<!--START_SECTION:blog-->
+<!--END_SECTION:blog-->
+
+</div>
 
 ---
 
