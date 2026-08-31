@@ -108,27 +108,9 @@
 
 </div>
 
----
-
-<div align="center">
-
-## 📝 Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-</div>
 
 ---
 
-<div align="center">
-
-## 📚 Latest Blog Posts
-
-<!--START_SECTION:blog-->
-<!--END_SECTION:blog-->
-
-</div>
 
 ---
 
@@ -157,7 +139,7 @@ If you find my projects helpful, consider supporting me!
 - Mobile app backends
 - Cloud infrastructure & DevOps
 
-📧 [rickrick20050@gmail.com](mailto:rickrick20050@gmail.com) | 💬 Open to project discussions
+📧 [farelrick22@gmail.com](mailto:farelrick22@gmail.com) | 💬 Open to project discussions
 
 </div>
 
