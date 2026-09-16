@@ -1,30 +1,14 @@
 <div align="center">
 
-![Slinging code, not webs](https://raw.githubusercontent.com/rickrick3/rickrick3/main/banner.svg)
+![Farel](https://raw.githubusercontent.com/rickrick3/rickrick3/main/banner.svg)
 
-# 👋 Hey Everyone, I'm Farel
 
-### Full-Stack Developer | Data Engineer | AI Systems Builder
+### Full-Stack Developer · Data Engineer · AI Systems Builder
 
-- 🔭 Building **Voxel** — a voice-activated 3D educational assistant with bilingual French/English narration
-- 🌱 Passionate about backend systems, data pipelines, and AI-driven solutions
-- 💼 Full-stack developer working on fintech, mobile banking, and innovative platforms
-- 👯 Open to collaboration on full-stack projects, AI systems, and data engineering
-- 💬 Ask me about Python, JavaScript, FastAPI, Django, React, and cloud architecture
-
-</div>
-
----
-
-<div align="center">
-
-## 🔗 Connect with me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tamo-farel-5b0212295)
-[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/farel_rick12)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@Farel)
-[![Twitter/X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Ghost23777)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rickrick20050@gmail.com)
+🔭 Building **[Voxel](https://github.com/rickrick3/voxel)** — a voice-activated 3D educational assistant with bilingual French/English narration
+💼 Backends and data pipelines for fintech, mobile banking, and education products
+📍 Douala, Cameroon · working in French and English
+💬 Ask me about Python, FastAPI, Django, React, and data systems
 
 </div>
 
@@ -34,114 +18,35 @@
 
 ## 💻 Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1A1B27?style=flat-square&logo=python&logoColor=3776AB)
+![JavaScript](https://img.shields.io/badge/JavaScript-1A1B27?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-1A1B27?style=flat-square&logo=typescript&logoColor=3178C6)
+![Django](https://img.shields.io/badge/Django-1A1B27?style=flat-square&logo=django&logoColor=44B78B)
+![FastAPI](https://img.shields.io/badge/FastAPI-1A1B27?style=flat-square&logo=fastapi&logoColor=009688)
+![Node.js](https://img.shields.io/badge/Node.js-1A1B27?style=flat-square&logo=node.js&logoColor=339933)
+
+![React](https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-1A1B27?style=flat-square&logo=angular&logoColor=DD0031)
+![Three.js](https://img.shields.io/badge/Three.js-1A1B27?style=flat-square&logo=three.js&logoColor=A9B1D6)
+![Docker](https://img.shields.io/badge/Docker-1A1B27?style=flat-square&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-1A1B27?style=flat-square&logo=git&logoColor=F05032)
 
 </div>
 
 ---
 
-<div align="center">
-
-## 📊 GitHub Stats
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rickrick3&theme=tokyonight&hide_border=true&show_icons=true)](https://github.com/rickrick3)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rickrick3&theme=tokyonight&hide_border=true)](https://github.com/rickrick3)
-
-</div>
 
 ---
-
-<div align="center">
-
-## 🗣️ Top Languages
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rickrick3&theme=tokyonight&hide_border=true&layout=compact)](https://github.com/rickrick3)
-
-</div>
-
----
-
-<div align="center">
-
-## 🏆 GitHub Trophies
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=rickrick3&theme=tokyonight&no-frame=true&column=3)](https://github.com/rickrick3)
-
-</div>
-
----
-
-<div align="center">
-
-## 📈 Contribution Graph
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rickrick3&theme=tokyo-night&hide_border=true)](https://github.com/rickrick3)
-
-</div>
-
----
-
-<div align="center">
 
 ## ⭐ Featured Projects
 
-### 🎯 Top Repositories
-
-[![Voxel](https://github-readme-stats.vercel.app/api/pin/?username=rickrick3&repo=voxel&theme=tokyonight&hide_border=true)](https://github.com/rickrick3/voxel)
-[![FastAPI](https://github-readme-stats.vercel.app/api/pin/?username=rickrick3&repo=fastapi&theme=tokyonight&hide_border=true)](https://github.com/rickrick3/fastapi)
-
-[![Banking App Backend](https://github-readme-stats.vercel.app/api/pin/?username=rickrick3&repo=Banking-app-backend-&theme=tokyonight&hide_border=true)](https://github.com/rickrick3/Banking-app-backend-)
-[![Fole Point](https://github-readme-stats.vercel.app/api/pin/?username=rickrick3&repo=fole_point&theme=tokyonight&hide_border=true)](https://github.com/rickrick3/fole_point)
-
-[![Angular Todo](https://github-readme-stats.vercel.app/api/pin/?username=rickrick3&repo=angular-todo&theme=tokyonight&hide_border=true)](https://github.com/rickrick3/angular-todo)
-[![Customer Support Frontend](https://github-readme-stats.vercel.app/api/pin/?username=rickrick3&repo=customerSupportFrontend&theme=tokyonight&hide_border=true)](https://github.com/rickrick3/customerSupportFrontend)
-
-</div>
-
-
----
-
-
----
-
-<div align="center">
-
-## ☕ Support My Work
-
-If you find my projects helpful, consider supporting me!
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/farel)
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/rickrick3)
-
-</div>
-
----
-
-<div align="center">
-
-## 💼 Let's Work Together
-
-🚀 **Available for freelance projects, contract work, and collaborations**
-
-- Building scalable backends with Python/FastAPI/Django
-- Full-stack web applications
-- AI and data pipeline systems
-- Mobile app backends
-- Cloud infrastructure & DevOps
-
-📧 [farelrick22@gmail.com](mailto:farelrick22@gmail.com) | 💬 Open to project discussions
-
-</div>
+| Project | What it does | |
+| --- | --- | --- |
+| **[Voxel](https://github.com/rickrick3/voxel)** | Voice-activated 3D educational assistant — ask out loud, it finds the model and narrates in French or English | ![](https://img.shields.io/github/stars/rickrick3/voxel?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/voxel?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
+| **[Banking App Backend](https://github.com/rickrick3/Banking-app-backend-)** | Service layer for a mobile banking app: accounts, transfers, and the audit trail | ![](https://img.shields.io/github/stars/rickrick3/Banking-app-backend-?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/Banking-app-backend-?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
+| **[Fole Point](https://github.com/rickrick3/fole_point)** | _One line here: what it does, and for whom_ | ![](https://img.shields.io/github/stars/rickrick3/fole_point?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/fole_point?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
+| **[Customer Support](https://github.com/rickrick3/customerSupportFrontend)** | Support front end: queues, ticket history, and replies in one view | ![](https://img.shields.io/github/stars/rickrick3/customerSupportFrontend?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/customerSupportFrontend?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
+| **[Angular Todo](https://github.com/rickrick3/angular-todo)** | Task app built while learning Angular's reactive patterns | ![](https://img.shields.io/github/stars/rickrick3/angular-todo?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/angular-todo?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
 
 ---
 
@@ -149,7 +54,7 @@ If you find my projects helpful, consider supporting me!
 
 ## 🐍 Contribution Snake
 
-![GitHub contribution grid snake animation](https://github.com/rickrick3/rickrick3/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/rickrick3/rickrick3/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -157,6 +62,19 @@ If you find my projects helpful, consider supporting me!
 
 <div align="center">
 
-### Thanks for visiting! ⭐ Star my repos if you find them useful!
+## 💼 Let's work together
+
+🚀 **Available for freelance projects, contract work, and collaborations**
+
+Scalable backends with Python, FastAPI, and Django · full-stack web apps
+AI and data pipeline systems · mobile app backends · cloud deployment
+
+[![Email](https://img.shields.io/badge/farelrick22@gmail.com-1A1B27?style=for-the-badge&logo=gmail&logoColor=BB9AF7)](mailto:farelrick22@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1A1B27?style=for-the-badge&logo=linkedin&logoColor=70A5FD)](https://www.linkedin.com/in/tamo-farel-5b0212295)
+[![X](https://img.shields.io/badge/X-1A1B27?style=for-the-badge&logo=x&logoColor=A9B1D6)](https://twitter.com/Ghost23777)
+[![Medium](https://img.shields.io/badge/Medium-1A1B27?style=for-the-badge&logo=medium&logoColor=A9B1D6)](https://medium.com/@Farel)
+[![Instagram](https://img.shields.io/badge/Instagram-1A1B27?style=for-the-badge&logo=instagram&logoColor=BB9AF7)](https://instagram.com/farel_rick12)
+
+<sub>⭐ Star my repos if you find them useful</sub>
 
 </div>
