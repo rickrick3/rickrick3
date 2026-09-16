@@ -1,192 +1,161 @@
-<svg width="100%" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#050505"/>
-      <stop offset="45%" stop-color="#160303"/>
-      <stop offset="100%" stop-color="#2a0000"/>
-    </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="35%" r="75%">
-      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="80%" stop-color="#000000" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.7"/>
-    </radialGradient>
-    <linearGradient id="titleFill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff3333"/>
-      <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#ff3333"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="spiderGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="0.8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
 
-  <!-- background with gradient -->
-  <rect width="900" height="240" fill="url(#bg)"/>
-
-  <!-- distant city skyline silhouette -->
-  <g fill="#000000" opacity="0.6">
-    <rect x="10" y="175" width="26" height="55"/>
-    <rect x="45" y="150" width="20" height="80"/>
-    <rect x="75" y="190" width="30" height="40"/>
-    <rect x="115" y="160" width="18" height="70"/>
-    <rect x="760" y="165" width="24" height="65"/>
-    <rect x="795" y="140" width="20" height="90"/>
-    <rect x="825" y="185" width="30" height="45"/>
-    <rect x="862" y="155" width="18" height="75"/>
-    <rect x="20" y="200" width="6" height="30"/>
-    <rect x="810" y="205" width="6" height="25"/>
-  </g>
-
-  <!-- top-left corner web - enhanced -->
-  <g stroke="#ff3333" stroke-width="1.2" opacity="0.55">
-    <line x1="0" y1="0" x2="150" y2="0"/>
-    <line x1="0" y1="0" x2="0" y2="130"/>
-    <line x1="0" y1="0" x2="75" y2="65"/>
-    <line x1="0" y1="0" x2="120" y2="25"/>
-    <line x1="0" y1="0" x2="25" y2="110"/>
-    <line x1="0" y1="0" x2="90" y2="95"/>
-    
-    <!-- radial web lines -->
-    <path d="M 0 0 Q 35 20 30 70" fill="none"/>
-    <path d="M 0 0 Q 55 35 40 95" fill="none"/>
-    <path d="M 0 0 Q 75 50 35 115" fill="none"/>
-    <path d="M 0 0 Q 100 75 45 125" fill="none"/>
-  </g>
-
-  <!-- top-right corner web (mirrored) - enhanced -->
-  <g stroke="#ff3333" stroke-width="1.2" opacity="0.55">
-    <line x1="900" y1="0" x2="750" y2="0"/>
-    <line x1="900" y1="0" x2="900" y2="130"/>
-    <line x1="900" y1="0" x2="825" y2="65"/>
-    <line x1="900" y1="0" x2="780" y2="25"/>
-    <line x1="900" y1="0" x2="875" y2="110"/>
-    <line x1="900" y1="0" x2="810" y2="95"/>
-    
-    <!-- radial web lines -->
-    <path d="M 900 0 Q 865 20 870 70" fill="none"/>
-    <path d="M 900 0 Q 845 35 860 95" fill="none"/>
-    <path d="M 900 0 Q 825 50 865 115" fill="none"/>
-    <path d="M 900 0 Q 800 75 855 125" fill="none"/>
-  </g>
-
-  <!-- floating embers - enhanced -->
-  <g fill="#ff5533">
-    <circle cx="120" cy="200" r="2.2">
-      <animate attributeName="cy" values="210;50;210" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.95;0" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="2;2.5;2" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="760" cy="190" r="1.8">
-      <animate attributeName="cy" values="200;35;200" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="1.8;2.2;1.8" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="650" cy="210" r="2.4">
-      <animate attributeName="cy" values="215;60;215" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="2.4;2.8;2.4" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="200" cy="215" r="2">
-      <animate attributeName="cy" values="220;70;220" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="2;2.6;2" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="450" cy="195" r="1.6">
-      <animate attributeName="cy" values="205;45;205" dur="5.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.75;0" dur="5.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="1.6;2;1.6" dur="5.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- hanging spider on thread - smoother swing -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Farel — backend, data pipelines, and AI systems" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3Y2QxNGFjOC1iMDJmLTQ5MjEtOTY1NC1hMTg2NWUxZGZiZDYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMJlSMFQH9WynwSMravqYL8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3Y2M4ZjdlYi05Y2FmLTQ5OWYtOWQwNy1lOTA2N2IwMGRlOWVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoxbbuXvuKVr3C7uSePenGwwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggmB0KcGzTU8B13ZuxgeXOp88AHoxIrDtU6K9KVtpd8q2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAkEYAcPTfSGqVjh+halDlIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBNLey2rGRm4jBWbwFo0tIirO1fUrnNwozMXA2oEZ9tB2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjiZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjdjZDE0YWM4LWIwMmYtNDkyMS05NjU0LWExODY1ZTFkZmJkNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjAwMzlkM2YyLTM3OGItNDRmMy05M2JjLTdhNDBmMmNmNTBkMnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCYHQpwbNNTwHXdm7GB5c6nzwAejEisO1Tor0pW2l3yraJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggEjXf828akMME/Ah8fA5DuSg6lvak7PMCC9kAdT7Ry7SiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggYWD7BZXGH71I+GvWpbBO+mmgbri8rawlMONmKZiZCaN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDsm9NoG95AbP9KJPl0Pq/PE+hxIwWxYld+GhYNkcnOlYXLhn0L1XpZqP5oKWYNuODma6Fk8bKhm3ZOtI0x4W5c=</c2pa:manifest></metadata>
+  <style>
+    :root {
+      --ink: #151821;
+      --muted: #6B6F76;
+      --accent: #2A2F7A;
+      --rule: #DEDCD5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #ECEAE4;
+        --muted: #8E949E;
+        --accent: #A7B0FF;
+        --rule: #272A33;
+      }
+    }
+    .name {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 108px;
+      letter-spacing: -4.5px;
+      fill: var(--ink);
+    }
+    .role {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 21px;
+      fill: var(--muted);
+    }
+    .place {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      fill: var(--muted);
+    }
+    .rule { stroke: var(--rule); stroke-width: 1; }
+    .b {
+      fill: var(--accent);
+      opacity: .6;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: speak 5.6s cubic-bezier(.3,.7,.3,1) infinite;
+    }
+    @keyframes speak {
+      0%   { transform: scaleY(.06); }
+      9%   { transform: scaleY(1); }
+      24%  { transform: scaleY(.45); }
+      38%  { transform: scaleY(.9); }
+      52%  { transform: scaleY(.12); }
+      100% { transform: scaleY(.12); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .b { animation: none; }
+    }
+  </style>
+ 
+  <text class="name" x="0" y="108">FAREL</text>
+  <text class="role" x="4" y="150">Backend, data pipelines, and AI systems</text>
+  <text class="place" x="4" y="180">Yaound&#233;, Cameroon &#8212; working in French and English</text>
+ 
   <g>
-    <line x1="450" y1="0" x2="450" y2="75" stroke="#ff4d4d" stroke-width="1.5" opacity="0.75" filter="url(#softGlow)"/>
-    
-    <g transform="translate(450,75)">
-      <animateTransform 
-        attributeName="transform" 
-        type="rotate" 
-        values="-8 0 0; 8 0 0; -8 0 0" 
-        dur="4.5s" 
-        repeatCount="indefinite" 
-        additive="sum"
-        keyTimes="0;0.5;1"
-        keySplines="0.4 0.0 0.6 1.0;0.4 0.0 0.6 1.0"
-      />
-      
-      <g filter="url(#spiderGlow)">
-        <!-- left legs -->
-        <g stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round">
-          <path d="M -2 2 Q -14 -6 -20 -14"/>
-          <path d="M -2 4 Q -16 8 -22 4"/>
-          <path d="M -2 6 Q -15 16 -19 24"/>
-          <path d="M -2 2 Q -18 -12 -16 -20"/>
-        </g>
-        
-        <!-- right legs -->
-        <g stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round">
-          <path d="M 2 2 Q 14 -6 20 -14"/>
-          <path d="M 2 4 Q 16 8 22 4"/>
-          <path d="M 2 6 Q 15 16 19 24"/>
-          <path d="M 2 2 Q 18 -12 16 -20"/>
-        </g>
-        
-        <!-- body -->
-        <ellipse cx="0" cy="9" rx="6.5" ry="8.5" fill="#0d0d0d" stroke="#ff4d4d" stroke-width="0.5"/>
-        <circle cx="0" cy="-1" r="4.2" fill="#0d0d0d" stroke="#ff4d4d" stroke-width="0.5"/>
-        
-        <!-- subtle eye glow -->
-        <circle cx="-1.5" cy="-2" r="0.8" fill="#ff6666" opacity="0.6"/>
-        <circle cx="1.5" cy="-2" r="0.8" fill="#ff6666" opacity="0.6"/>
-      </g>
-    </g>
+    <rect class="b" x="4.75" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:0ms"/>
+    <rect class="b" x="17.25" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:22ms"/>
+    <rect class="b" x="29.75" y="226.33" width="3.0" height="7.35" rx="1.4" style="animation-delay:44ms"/>
+    <rect class="b" x="42.25" y="224.58" width="3.0" height="10.83" rx="1.4" style="animation-delay:66ms"/>
+    <rect class="b" x="54.75" y="221.82" width="3.0" height="16.36" rx="1.4" style="animation-delay:88ms"/>
+    <rect class="b" x="67.25" y="219.53" width="3.0" height="20.94" rx="1.4" style="animation-delay:110ms"/>
+    <rect class="b" x="79.75" y="221.11" width="3.0" height="17.77" rx="1.4" style="animation-delay:132ms"/>
+    <rect class="b" x="92.25" y="226.53" width="3.0" height="6.93" rx="1.4" style="animation-delay:154ms"/>
+    <rect class="b" x="104.75" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:176ms"/>
+    <rect class="b" x="117.25" y="220.39" width="3.0" height="19.21" rx="1.4" style="animation-delay:198ms"/>
+    <rect class="b" x="129.75" y="218.79" width="3.0" height="22.41" rx="1.4" style="animation-delay:220ms"/>
+    <rect class="b" x="142.25" y="217.23" width="3.0" height="25.53" rx="1.4" style="animation-delay:242ms"/>
+    <rect class="b" x="154.75" y="213.34" width="3.0" height="33.33" rx="1.4" style="animation-delay:264ms"/>
+    <rect class="b" x="167.25" y="217.75" width="3.0" height="24.51" rx="1.4" style="animation-delay:286ms"/>
+    <rect class="b" x="179.75" y="219.88" width="3.0" height="20.24" rx="1.4" style="animation-delay:308ms"/>
+    <rect class="b" x="192.25" y="226.25" width="3.0" height="7.51" rx="1.4" style="animation-delay:330ms"/>
+    <rect class="b" x="204.75" y="223.58" width="3.0" height="12.84" rx="1.4" style="animation-delay:352ms"/>
+    <rect class="b" x="217.25" y="218.37" width="3.0" height="23.26" rx="1.4" style="animation-delay:374ms"/>
+    <rect class="b" x="229.75" y="204.30" width="3.0" height="51.41" rx="1.4" style="animation-delay:396ms"/>
+    <rect class="b" x="242.25" y="209.11" width="3.0" height="41.78" rx="1.4" style="animation-delay:418ms"/>
+    <rect class="b" x="254.75" y="201.00" width="3.0" height="57.99" rx="1.4" style="animation-delay:440ms"/>
+    <rect class="b" x="267.25" y="214.07" width="3.0" height="31.85" rx="1.4" style="animation-delay:462ms"/>
+    <rect class="b" x="279.75" y="216.89" width="3.0" height="26.23" rx="1.4" style="animation-delay:484ms"/>
+    <rect class="b" x="292.25" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:506ms"/>
+    <rect class="b" x="304.75" y="221.50" width="3.0" height="16.99" rx="1.4" style="animation-delay:528ms"/>
+    <rect class="b" x="317.25" y="204.27" width="3.0" height="51.46" rx="1.4" style="animation-delay:550ms"/>
+    <rect class="b" x="329.75" y="205.19" width="3.0" height="49.61" rx="1.4" style="animation-delay:572ms"/>
+    <rect class="b" x="342.25" y="202.10" width="3.0" height="55.79" rx="1.4" style="animation-delay:594ms"/>
+    <rect class="b" x="354.75" y="205.66" width="3.0" height="48.69" rx="1.4" style="animation-delay:616ms"/>
+    <rect class="b" x="367.25" y="205.04" width="3.0" height="49.91" rx="1.4" style="animation-delay:638ms"/>
+    <rect class="b" x="379.75" y="223.44" width="3.0" height="13.11" rx="1.4" style="animation-delay:660ms"/>
+    <rect class="b" x="392.25" y="224.58" width="3.0" height="10.84" rx="1.4" style="animation-delay:682ms"/>
+    <rect class="b" x="404.75" y="216.22" width="3.0" height="27.56" rx="1.4" style="animation-delay:704ms"/>
+    <rect class="b" x="417.25" y="202.91" width="3.0" height="54.18" rx="1.4" style="animation-delay:726ms"/>
+    <rect class="b" x="429.75" y="188.63" width="3.0" height="82.74" rx="1.4" style="animation-delay:748ms"/>
+    <rect class="b" x="442.25" y="189.29" width="3.0" height="81.42" rx="1.4" style="animation-delay:770ms"/>
+    <rect class="b" x="454.75" y="207.56" width="3.0" height="44.87" rx="1.4" style="animation-delay:792ms"/>
+    <rect class="b" x="467.25" y="207.18" width="3.0" height="45.64" rx="1.4" style="animation-delay:814ms"/>
+    <rect class="b" x="479.75" y="225.76" width="3.0" height="8.48" rx="1.4" style="animation-delay:836ms"/>
+    <rect class="b" x="492.25" y="219.16" width="3.0" height="21.67" rx="1.4" style="animation-delay:858ms"/>
+    <rect class="b" x="504.75" y="208.05" width="3.0" height="43.90" rx="1.4" style="animation-delay:880ms"/>
+    <rect class="b" x="517.25" y="205.95" width="3.0" height="48.11" rx="1.4" style="animation-delay:902ms"/>
+    <rect class="b" x="529.75" y="202.81" width="3.0" height="54.38" rx="1.4" style="animation-delay:924ms"/>
+    <rect class="b" x="542.25" y="204.53" width="3.0" height="50.94" rx="1.4" style="animation-delay:946ms"/>
+    <rect class="b" x="554.75" y="204.19" width="3.0" height="51.62" rx="1.4" style="animation-delay:968ms"/>
+    <rect class="b" x="567.25" y="215.63" width="3.0" height="28.75" rx="1.4" style="animation-delay:990ms"/>
+    <rect class="b" x="579.75" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:1012ms"/>
+    <rect class="b" x="592.25" y="215.51" width="3.0" height="28.98" rx="1.4" style="animation-delay:1034ms"/>
+    <rect class="b" x="604.75" y="209.07" width="3.0" height="41.86" rx="1.4" style="animation-delay:1056ms"/>
+    <rect class="b" x="617.25" y="198.13" width="3.0" height="63.74" rx="1.4" style="animation-delay:1078ms"/>
+    <rect class="b" x="629.75" y="193.29" width="3.0" height="73.42" rx="1.4" style="animation-delay:1100ms"/>
+    <rect class="b" x="642.25" y="200.32" width="3.0" height="59.37" rx="1.4" style="animation-delay:1122ms"/>
+    <rect class="b" x="654.75" y="211.24" width="3.0" height="37.52" rx="1.4" style="animation-delay:1144ms"/>
+    <rect class="b" x="667.25" y="222.47" width="3.0" height="15.07" rx="1.4" style="animation-delay:1166ms"/>
+    <rect class="b" x="679.75" y="224.52" width="3.0" height="10.96" rx="1.4" style="animation-delay:1188ms"/>
+    <rect class="b" x="692.25" y="207.99" width="3.0" height="44.01" rx="1.4" style="animation-delay:1210ms"/>
+    <rect class="b" x="704.75" y="202.12" width="3.0" height="55.75" rx="1.4" style="animation-delay:1232ms"/>
+    <rect class="b" x="717.25" y="186.08" width="3.0" height="87.83" rx="1.4" style="animation-delay:1254ms"/>
+    <rect class="b" x="729.75" y="188.78" width="3.0" height="82.45" rx="1.4" style="animation-delay:1276ms"/>
+    <rect class="b" x="742.25" y="207.03" width="3.0" height="45.94" rx="1.4" style="animation-delay:1298ms"/>
+    <rect class="b" x="754.75" y="208.77" width="3.0" height="42.47" rx="1.4" style="animation-delay:1320ms"/>
+    <rect class="b" x="767.25" y="226.12" width="3.0" height="7.76" rx="1.4" style="animation-delay:1342ms"/>
+    <rect class="b" x="779.75" y="220.59" width="3.0" height="18.82" rx="1.4" style="animation-delay:1364ms"/>
+    <rect class="b" x="792.25" y="210.19" width="3.0" height="39.63" rx="1.4" style="animation-delay:1386ms"/>
+    <rect class="b" x="804.75" y="203.69" width="3.0" height="52.63" rx="1.4" style="animation-delay:1408ms"/>
+    <rect class="b" x="817.25" y="201.09" width="3.0" height="57.83" rx="1.4" style="animation-delay:1430ms"/>
+    <rect class="b" x="829.75" y="198.20" width="3.0" height="63.60" rx="1.4" style="animation-delay:1452ms"/>
+    <rect class="b" x="842.25" y="202.22" width="3.0" height="55.55" rx="1.4" style="animation-delay:1474ms"/>
+    <rect class="b" x="854.75" y="219.63" width="3.0" height="20.74" rx="1.4" style="animation-delay:1496ms"/>
+    <rect class="b" x="867.25" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:1518ms"/>
+    <rect class="b" x="879.75" y="217.29" width="3.0" height="25.43" rx="1.4" style="animation-delay:1540ms"/>
+    <rect class="b" x="892.25" y="202.39" width="3.0" height="55.21" rx="1.4" style="animation-delay:1562ms"/>
+    <rect class="b" x="904.75" y="198.91" width="3.0" height="62.18" rx="1.4" style="animation-delay:1584ms"/>
+    <rect class="b" x="917.25" y="197.51" width="3.0" height="64.98" rx="1.4" style="animation-delay:1606ms"/>
+    <rect class="b" x="929.75" y="204.75" width="3.0" height="50.50" rx="1.4" style="animation-delay:1628ms"/>
+    <rect class="b" x="942.25" y="214.03" width="3.0" height="31.94" rx="1.4" style="animation-delay:1650ms"/>
+    <rect class="b" x="954.75" y="224.92" width="3.0" height="10.15" rx="1.4" style="animation-delay:1672ms"/>
+    <rect class="b" x="967.25" y="226.20" width="3.0" height="7.60" rx="1.4" style="animation-delay:1694ms"/>
+    <rect class="b" x="979.75" y="217.08" width="3.0" height="25.83" rx="1.4" style="animation-delay:1716ms"/>
+    <rect class="b" x="992.25" y="206.74" width="3.0" height="46.52" rx="1.4" style="animation-delay:1738ms"/>
+    <rect class="b" x="1004.75" y="213.80" width="3.0" height="32.40" rx="1.4" style="animation-delay:1760ms"/>
+    <rect class="b" x="1017.25" y="212.23" width="3.0" height="35.55" rx="1.4" style="animation-delay:1782ms"/>
+    <rect class="b" x="1029.75" y="212.37" width="3.0" height="35.25" rx="1.4" style="animation-delay:1804ms"/>
+    <rect class="b" x="1042.25" y="221.62" width="3.0" height="16.75" rx="1.4" style="animation-delay:1826ms"/>
+    <rect class="b" x="1054.75" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:1848ms"/>
+    <rect class="b" x="1067.25" y="225.24" width="3.0" height="9.52" rx="1.4" style="animation-delay:1870ms"/>
+    <rect class="b" x="1079.75" y="220.80" width="3.0" height="18.40" rx="1.4" style="animation-delay:1892ms"/>
+    <rect class="b" x="1092.25" y="216.04" width="3.0" height="27.93" rx="1.4" style="animation-delay:1914ms"/>
+    <rect class="b" x="1104.75" y="212.58" width="3.0" height="34.85" rx="1.4" style="animation-delay:1936ms"/>
+    <rect class="b" x="1117.25" y="215.66" width="3.0" height="28.67" rx="1.4" style="animation-delay:1958ms"/>
+    <rect class="b" x="1129.75" y="221.54" width="3.0" height="16.93" rx="1.4" style="animation-delay:1980ms"/>
+    <rect class="b" x="1142.25" y="226.52" width="3.0" height="6.97" rx="1.4" style="animation-delay:2002ms"/>
+    <rect class="b" x="1154.75" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:2024ms"/>
+    <rect class="b" x="1167.25" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:2046ms"/>
+    <rect class="b" x="1179.75" y="225.10" width="3.0" height="9.80" rx="1.4" style="animation-delay:2068ms"/>
+    <rect class="b" x="1192.25" y="226.64" width="3.0" height="6.72" rx="1.4" style="animation-delay:2090ms"/>
   </g>
-
-  <!-- glowing web nodes for depth - more pronounced -->
-  <g fill="#ff4d4d">
-    <circle cx="75" cy="60" r="2.2">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="2.2;2.8;2.2" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="825" cy="60" r="2.2">
-      <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="2.2;2.8;2.2" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- vignette overlay -->
-  <rect width="900" height="240" fill="url(#vignette)"/>
-
-  <!-- main text -->
-  <text 
-    x="450" 
-    y="205" 
-    text-anchor="middle" 
-    font-family="'Courier New', monospace" 
-    font-size="24" 
-    font-weight="700" 
-    fill="url(#titleFill)" 
-    filter="url(#glow)"
-    letter-spacing="1"
-  >
-    🕸️ Slinging code, not webs 🕸️
-  </text>
+  <line class="rule" x1="0" y1="292" x2="1200" y2="292"/>
 </svg>
