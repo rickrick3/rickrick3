@@ -65,24 +65,7 @@
 - Designing AI-powered experiences and intelligent product workflows
 - Focused on clean architecture, automation, and reliable deployment
 
-<!-- STATS:START -->
-- Total Stars Earned: 0
-- Total Contributions: 0
-- Total Commits: 0
-- Total PRs: 0
-- Total PRs Merged: 0
-- Merged PRs Percentage: 0.00 %
-- Total PRs Reviewed: 0
-- Total Issues: 0
-- Total Discussions Started: 0
-- Total Discussions Answered: 0
-- PRs Commented: 0
-- PRs Reviewed (last year): 0
-- Issues Commented: 0
-- Contributed to (last year): 0 repositories
 
-<sub>Updated 2026-10-21</sub>
-<!-- STATS:END -->
 
 </div>
 
