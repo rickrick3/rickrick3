@@ -54,9 +54,35 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rickrick3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rickrick3&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rickrick3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rickrick3&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Most Used Languages" height="180" />
 </p>
+
+### Highlights
+- Building scalable backend systems and data pipelines
+- Shipping products for fintech, mobile banking, and education
+- Working across Python, FastAPI, Django, React, Angular, and cloud tools
+- Designing AI-powered experiences and intelligent product workflows
+- Focused on clean architecture, automation, and reliable deployment
+
+<!-- STATS:START -->
+- Total Stars Earned: 0
+- Total Contributions: 0
+- Total Commits: 0
+- Total PRs: 0
+- Total PRs Merged: 0
+- Merged PRs Percentage: 0.00 %
+- Total PRs Reviewed: 0
+- Total Issues: 0
+- Total Discussions Started: 0
+- Total Discussions Answered: 0
+- PRs Commented: 0
+- PRs Reviewed (last year): 0
+- Issues Commented: 0
+- Contributed to (last year): 0 repositories
+
+<sub>Updated 2026-10-21</sub>
+<!-- STATS:END -->
 
 </div>
 
