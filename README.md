@@ -35,18 +35,30 @@
 
 ---
 
-
 ---
 
 ## ⭐ Featured Projects
 
 | Project | What it does | |
 | --- | --- | --- |
-| **[Voxel](https://github.com/rickrick3/voxel)** | Voice-activated 3D educational assistant — ask out loud, it finds the model and narrates in French or English | ![](https://img.shields.io/github/stars/rickrick3/voxel?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/voxel?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
-| **[Banking App Backend](https://github.com/rickrick3/Banking-app-backend-)** | Service layer for a mobile banking app: accounts, transfers, and the audit trail | ![](https://img.shields.io/github/stars/rickrick3/Banking-app-backend-?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/Banking-app-backend-?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
-| **[Fole Point](https://github.com/rickrick3/fole_point)** | _One line here: what it does, and for whom_ | ![](https://img.shields.io/github/stars/rickrick3/fole_point?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/fole_point?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
-| **[Customer Support](https://github.com/rickrick3/customerSupportFrontend)** | Support front end: queues, ticket history, and replies in one view | ![](https://img.shields.io/github/stars/rickrick3/customerSupportFrontend?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/customerSupportFrontend?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
-| **[Angular Todo](https://github.com/rickrick3/angular-todo)** | Task app built while learning Angular's reactive patterns | ![](https://img.shields.io/github/stars/rickrick3/angular-todo?style=flat-square&labelColor=1A1B27&color=70A5FD) ![](https://img.shields.io/github/languages/top/rickrick3/angular-todo?style=flat-square&labelColor=1A1B27&color=BB9AF7) |
+| **[Voxel](https://github.com/rickrick3/voxel)** | Voice-activated 3D educational assistant — ask out loud, it finds the model and narrates in French or English | ![](https://img.shields.io/github/stars/rickrick3/voxel?style=flat-square&labelColor=1A1B27) |
+| **[Banking App Backend](https://github.com/rickrick3/Banking-app-backend-)** | Service layer for a mobile banking app: accounts, transfers, and the audit trail | ![](https://img.shields.io/github/stars/rickrick3/Banking-app-backend-?style=flat-square&labelColor=1A1B27) |
+| **[Fole Point](https://github.com/rickrick3/fole_point)** | _One line here: what it does, and for whom_ | ![](https://img.shields.io/github/stars/rickrick3/fole_point?style=flat-square&labelColor=1A1B27) |
+| **[Customer Support](https://github.com/rickrick3/customerSupportFrontend)** | Support front end: queues, ticket history, and replies in one view | ![](https://img.shields.io/github/stars/rickrick3/customerSupportFrontend?style=flat-square&labelColor=1A1B27) |
+| **[Angular Todo](https://github.com/rickrick3/angular-todo)** | Task app built while learning Angular's reactive patterns | ![](https://img.shields.io/github/stars/rickrick3/angular-todo?style=flat-square&labelColor=1A1B27) |
+
+---
+
+<div align="center">
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rickrick3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rickrick3&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" height="180" />
+</p>
+
+</div>
 
 ---
 
